@@ -4,3 +4,21 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+@media screen and (max-width: 1280px) {
+  .page {
+    padding: 0 48px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .page {
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .page {
+    padding: 0 16px;
+  }
+}
