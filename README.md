@@ -7,4 +7,6 @@
 
 В проекте используются технологии grid и flex верстки.
 
+**Посмотреть проект:** [https://justpasha.github.io/russian-travel/]
+
 
