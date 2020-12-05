@@ -4,7 +4,7 @@
   letter-spacing: 0.15em;
   text-transform: uppercase;
   margin: 8px 0 0;
-  align-self: flex-start;
+  text-align: left;
 }
 
 @media screen and (max-width: 1023px) {

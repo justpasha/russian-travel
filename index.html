@@ -11,10 +11,10 @@
 
     <header class="header">
       <img src="./images/header-logo.svg" alt="Лого" class="header__logo">
-      <div class="header__lang-container">
-        <a href="#" target="_self" class="header__lang-link">Ru</a>
-        <a href="#" target="_self" class="header__lang-link">En</a>
-      </div>
+      <ul class="header__lang-container">
+        <li class="header__lang-link-item"><a href="#" target="_self" class="header__lang-link header__lang-link_border_bottom">Ru</a></li>
+        <li class="header__lang-link-item"><a href="#" target="_self" class="header__lang-link">En</a></li>
+      </ul>
     </header>
 
     <main class="content">
@@ -22,8 +22,10 @@
       <section class="lead">
         <h1 class="lead__title">Путешествия по России</h1>
         <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
-        <img src="./images/lead-polka.jpg" alt="Полка" class="lead__image">
-        <p class="lead__caption">ваша полка — верхняя</p>
+        <figure class="lead__figure">
+          <img src="./images/lead-polka.jpg" alt="Полка" class="lead__image">
+          <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+        </figure>
       </section>
 
       <section class="intro">
@@ -62,7 +64,7 @@
       </section>
 
       <section class="places">
-        <div class="place">
+        <article class="place">
           <h2 class="place__title">Куршская коса</h2>
           <img src="./images/place-kosa.jpg" alt="куршская коса" class="place__image">
           <div class="place__website">
@@ -85,8 +87,8 @@
               природы и запах стального, прохладного моря.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Кольский</h2>
           <img src="./images/place-kolsky.jpg" alt="кольский" class="place__image">
           <div class="place__website">
@@ -109,8 +111,8 @@
               северное сияние начинает сбываться с билетом в Мурманск.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Алтай</h2>
           <img src="./images/place-altai.jpg" alt="алтай" class="place__image">
           <div class="place__website">
@@ -133,8 +135,8 @@
               обитатели Алтайского края.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Зимний Байкал</h2>
           <img src="./images/place-winter-baikal.jpg" alt="зимный байкал" class="place__image">
           <div class="place__website">
@@ -156,8 +158,8 @@
               мировой рекорд — 197.011 км/ч.
             </p>
           </div>
-        </div>
-        <div class="place">
+        </article>
+        <article class="place">
           <h2 class="place__title">Карелия</h2>
           <img src="./images/place-karelia.jpg" alt="карелия" class="place__image">
           <div class="place__website">
@@ -179,7 +181,7 @@
               когтями. Чтобы все знали, кто тут хозяин.
             </p>
           </div>
-        </div>
+        </article>
       </section>
 
       <section class="cover">
